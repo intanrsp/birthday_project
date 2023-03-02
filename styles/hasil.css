@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+}
+
+@media screen and (max-width: 768px) {
+    .container {
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    }
+    img {
+      right: -5%;
+    }
+  }
+ 
+.bg-video {
+        display: none;
+    }
+
+h3 {
+    color: #fc00c5;
+    font-size: 35px;
+}
+
+h4 {
+    font-size: 19px;
+}
+
+.button a {
+    color: #fff;
+    font-size: 12pt;
+	background: #fc00c5;
+	text-decoration: none;
+	padding: 12px;
+    border-radius: 18%;
+	font-family: sans-serif;
+}
+
+
+
+@keyframes slide {
+    100% {
+        top: -360px;
+    }
+}
